@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/moorara/cherry/internal/spec"
-	"github.com/moorara/cherry/internal/step"
-	"github.com/moorara/cherry/pkg/cui"
+	"github.com/flybits/cherry/internal/spec"
+	"github.com/flybits/cherry/internal/step"
+	"github.com/flybits/cherry/pkg/cui"
 )
 
 // build is the action for build command.

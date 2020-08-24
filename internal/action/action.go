@@ -3,7 +3,7 @@ package action
 import (
 	"context"
 
-	"github.com/moorara/cherry/internal/spec"
+	"github.com/flybits/cherry/internal/spec"
 )
 
 // contextKey is the type for the keys added to context.

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/moorara/cherry/pkg/semver"
+	"github.com/flybits/cherry/pkg/semver"
 	"github.com/stretchr/testify/assert"
 )
 

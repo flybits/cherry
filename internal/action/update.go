@@ -8,11 +8,11 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/moorara/cherry/internal/step"
-	"github.com/moorara/cherry/pkg/cui"
+	"github.com/flybits/cherry/internal/step"
+	"github.com/flybits/cherry/pkg/cui"
 )
 
-const repo = "moorara/cherry"
+const repo = "flybits/cherry"
 
 // update is the action for update command.
 type update struct {

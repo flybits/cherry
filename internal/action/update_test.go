@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/moorara/cherry/internal/step"
-	"github.com/moorara/cherry/pkg/cui"
+	"github.com/flybits/cherry/internal/step"
+	"github.com/flybits/cherry/pkg/cui"
 	"github.com/stretchr/testify/assert"
 )
 

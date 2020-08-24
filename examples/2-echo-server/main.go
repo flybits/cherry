@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/moorara/cherry/examples/2-echo-server/handler"
-	"github.com/moorara/cherry/examples/2-echo-server/version"
+	"github.com/flybits/cherry/examples/2-echo-server/handler"
+	"github.com/flybits/cherry/examples/2-echo-server/version"
 )
 
 func main() {

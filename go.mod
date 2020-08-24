@@ -1,4 +1,4 @@
-module github.com/moorara/cherry
+module github.com/flybits/cherry
 
 go 1.13
 

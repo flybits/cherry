@@ -25,63 +25,63 @@ func TestParseGitURL(t *testing.T) {
 		{
 			name: "Invalid",
 			output: `
-			origin	moorara/cherry (fetch)
-			origin	moorara/cherry (push)
+			origin	flybits/cherry (fetch)
+			origin	flybits/cherry (push)
 			`,
 			expectedError: "failed to get git repository name",
 		},
 		{
 			name: "SSH#1",
 			output: `
-			origin	git@github.com:moorara/cherry (fetch)
-			origin	git@github.com:moorara/cherry (push)
+			origin	git@github.com:flybits/cherry (fetch)
+			origin	git@github.com:flybits/cherry (push)
 			`,
-			expectedOwner: "moorara",
+			expectedOwner: "flybits",
 			expectedName:  "cherry",
 		},
 		{
 			name: "SSH#2",
 			output: `
-			origin	git@github.com:moorara/cherry.git (fetch)
-			origin	git@github.com:moorara/cherry.git (push)
+			origin	git@github.com:flybits/cherry.git (fetch)
+			origin	git@github.com:flybits/cherry.git (push)
 			`,
-			expectedOwner: "moorara",
+			expectedOwner: "flybits",
 			expectedName:  "cherry",
 		},
 		{
 			name: "HTTPS#1",
 			output: `
-			origin	https://github.com/moorara/cherry (fetch)
-			origin	https://github.com/moorara/cherry (push)
+			origin	https://github.com/flybits/cherry (fetch)
+			origin	https://github.com/flybits/cherry (push)
 			`,
-			expectedOwner: "moorara",
+			expectedOwner: "flybits",
 			expectedName:  "cherry",
 		},
 		{
 			name: "HTTPS#2",
 			output: `
-			origin	https://github.com/moorara/cherry.git (fetch)
-			origin	https://github.com/moorara/cherry.git (push)
+			origin	https://github.com/flybits/cherry.git (fetch)
+			origin	https://github.com/flybits/cherry.git (push)
 			`,
-			expectedOwner: "moorara",
+			expectedOwner: "flybits",
 			expectedName:  "cherry",
 		},
 		{
 			name: "CustomSSH#1",
 			output: `
-			origin	ssh://git@github.com/moorara/cherry (fetch)
-			origin	ssh://git@github.com/moorara/cherry (push)
+			origin	ssh://git@github.com/flybits/cherry (fetch)
+			origin	ssh://git@github.com/flybits/cherry (push)
 			`,
-			expectedOwner: "moorara",
+			expectedOwner: "flybits",
 			expectedName:  "cherry",
 		},
 		{
 			name: "CustomSSH#2",
 			output: `
-			origin	ssh://git@github.com/moorara/cherry.git (fetch)
-			origin	ssh://git@github.com/moorara/cherry.git (push)
+			origin	ssh://git@github.com/flybits/cherry.git (fetch)
+			origin	ssh://git@github.com/flybits/cherry.git (push)
 			`,
-			expectedOwner: "moorara",
+			expectedOwner: "flybits",
 			expectedName:  "cherry",
 		},
 	}

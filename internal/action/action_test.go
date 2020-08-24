@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/moorara/cherry/internal/spec"
+	"github.com/flybits/cherry/internal/spec"
 	"github.com/stretchr/testify/assert"
 )
 
