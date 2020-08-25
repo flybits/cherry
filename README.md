@@ -29,13 +29,7 @@ For releasing GitHub repository you need a **personal access token** with **admi
 ### Install
 
 ```
-curl -s https://git.io/JeCX6 | sh
-```
-
-Or
-
-```
-curl -s https://raw.githubusercontent.com/moorara/cherry/master/scripts/install.sh | sh
+curl -s https://raw.githubusercontent.com/flybits/cherry/master/scripts/install.sh | sh
 ```
 
 ### Docker
