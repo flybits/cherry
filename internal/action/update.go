@@ -12,7 +12,7 @@ import (
 	"github.com/moorara/cherry/pkg/cui"
 )
 
-const repo = "moorara/cherry"
+const repo = "flybits/cherry"
 
 // update is the action for update command.
 type update struct {
