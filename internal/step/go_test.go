@@ -252,7 +252,7 @@ func TestGoListRun(t *testing.T) {
 			name:                "Success",
 			workDir:             "./test",
 			pkg:                 ".",
-			expectedPackagePath: "github.com/moorara/cherry/internal/step/test",
+			expectedPackagePath: "github.com/flybits/cherry/internal/step/test",
 		},
 	}
 

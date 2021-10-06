@@ -1,5 +1,5 @@
 name := cherry
-docker_image ?= moorara/$(name)
+docker_image ?= flybits/$(name)
 docker_tag ?= latest
 
 

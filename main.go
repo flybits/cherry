@@ -5,11 +5,11 @@ import (
 	"os"
 
 	"github.com/mitchellh/cli"
-	"github.com/moorara/cherry/cmd/command"
-	"github.com/moorara/cherry/cmd/version"
-	"github.com/moorara/cherry/internal/spec"
-	"github.com/moorara/cherry/pkg/cui"
-	"github.com/moorara/konfig"
+	"github.com/flybits/cherry/cmd/command"
+	"github.com/flybits/cherry/cmd/version"
+	"github.com/flybits/cherry/internal/spec"
+	"github.com/flybits/cherry/pkg/cui"
+	"github.com/flybits/konfig"
 )
 
 const (

@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/moorara/cherry/pkg/semver"
+	"github.com/flybits/cherry/pkg/semver"
 )
 
 const (

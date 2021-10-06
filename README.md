@@ -34,7 +34,7 @@ curl -s https://raw.githubusercontent.com/flybits/cherry/master/scripts/install.
 
 ### Docker
 
-The docker image for Cherry includes all the required tools and is accessible at [moorara/cherry](https://hub.docker.com/r/moorara/cherry).
+The docker image for Cherry includes all the required tools and is accessible at [flybits/cherry](https://hub.docker.com/r/flybits/cherry).
 
 ### Examples
 
@@ -78,11 +78,11 @@ It downloads the latest release for your system from GitHub and replaces the loc
 | `make load-docker` | Load saved image from disk                           |
 
 
-[workflow-url]: https://github.com/moorara/cherry/actions
-[workflow-image]: https://github.com/moorara/cherry/workflows/Main/badge.svg
-[goreport-url]: https://goreportcard.com/report/github.com/moorara/cherry
-[goreport-image]: https://goreportcard.com/badge/github.com/moorara/cherry
-[coverage-url]: https://codeclimate.com/github/moorara/cherry/test_coverage
+[workflow-url]: https://github.com/flybits/cherry/actions
+[workflow-image]: https://github.com/flybits/cherry/workflows/Main/badge.svg
+[goreport-url]: https://goreportcard.com/report/github.com/flybits/cherry
+[goreport-image]: https://goreportcard.com/badge/github.com/flybits/cherry
+[coverage-url]: https://codeclimate.com/github/flybits/cherry/test_coverage
 [coverage-image]: https://api.codeclimate.com/v1/badges/569a659577775c8af668/test_coverage
-[maintainability-url]: https://codeclimate.com/github/moorara/cherry/maintainability
+[maintainability-url]: https://codeclimate.com/github/flybits/cherry/maintainability
 [maintainability-image]: https://api.codeclimate.com/v1/badges/569a659577775c8af668/maintainability

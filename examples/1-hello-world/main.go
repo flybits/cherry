@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/moorara/cherry/examples/1-hello-world/cmd/version"
+	"github.com/flybits/cherry/examples/1-hello-world/cmd/version"
 )
 
 func main() {
