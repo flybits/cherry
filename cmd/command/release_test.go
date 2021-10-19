@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/mitchellh/cli"
-	"github.com/moorara/cherry/internal/spec"
-	"github.com/moorara/cherry/pkg/cui"
+	"github.com/flybits/cherry/internal/spec"
+	"github.com/flybits/cherry/pkg/cui"
 	"github.com/stretchr/testify/assert"
 )
 

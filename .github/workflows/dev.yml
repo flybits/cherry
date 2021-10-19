@@ -10,7 +10,7 @@
 #    steps:
 #      - uses: actions/checkout@master
 #      - name: Lint
-#        uses: moorara/actions/go-lint@master
+#        uses: flybits/actions/go-lint@master
 #  test:
 #    name: Test
 #    runs-on: ubuntu-latest
@@ -18,7 +18,7 @@
 #      - uses: actions/checkout@master
 #      - name: Test
 #        id: test
-#        uses: moorara/actions/go-cover@master
+#        uses: flybits/actions/go-cover@master
 #        with:
 #          codeclimate_reporter_id: ${{ secrets.CODECLIMATE_REPORTER_ID }}
 #      - name: Upload Test Report
@@ -31,8 +31,8 @@
 #    runs-on: ubuntu-latest
 #    steps:
 #      - uses: actions/checkout@master
-#      - uses: moorara/actions/semver@master
+#      - uses: flybits/actions/semver@master
 #      - name: Build
-#        uses: moorara/actions/cherry@master
+#        uses: flybits/actions/cherry@master
 #        with:
 #          args: build -cross-compile=false

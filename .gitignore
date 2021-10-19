@@ -13,3 +13,4 @@ cherry-*
 *.test
 cover.html
 coverage.html
+.idea/
