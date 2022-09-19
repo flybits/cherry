@@ -33,7 +33,7 @@ get_latest_release() {
 }
 
 install_cherry() {
-  download_url="$1"
+  download_url=https://github.com/flybits/cherry/releases/download/v0.4.4/cherry-linux-amd64
   bin_path="/usr/local/bin/cherry"
 
   if hash curl 2>/dev/null; then
