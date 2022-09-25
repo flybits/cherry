@@ -1,5 +1,5 @@
 # BUILD STAGE
-FROM golang:1.18-alpine as builder
+FROM golang:1.19-alpine as builder
 RUN apk add --no-cache git
 WORKDIR /repo
 COPY . .
@@ -8,7 +8,7 @@ RUN scripts/install.sh
 RUN cherry build -cross-compile=false
 
 # FINAL STAGE
-FROM golang:1.18-alpine
+FROM golang:1.19-alpine
 RUN apk add --no-cache ca-certificates git
 RUN apk add --no-cache ruby ruby-json && \
     gem install rdoc --no-document && \
