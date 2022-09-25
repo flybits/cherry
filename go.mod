@@ -1,6 +1,6 @@
 module github.com/flybits/cherry
 
-go 1.13
+go 1.19
 
 require (
 	github.com/flybits/konfig v0.4.6
