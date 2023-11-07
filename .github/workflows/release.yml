@@ -9,7 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: flybits/actions/semver@master
+        with:
+          fetch-depth: 0
+      - name: Build
+        run: go build
       - name: Build Latest Image
         run: make docker docker_tag=$(cat VERSION)
       - name: Push Latest Image
