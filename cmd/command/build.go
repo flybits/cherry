@@ -6,10 +6,10 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/mitchellh/cli"
 	"github.com/flybits/cherry/internal/action"
 	"github.com/flybits/cherry/internal/spec"
 	"github.com/flybits/cherry/pkg/cui"
+	"github.com/mitchellh/cli"
 )
 
 const (
@@ -18,7 +18,7 @@ const (
 	buildRunErr    = 23
 	buildRevertErr = 24
 
-	buildTimeout = 2 * time.Minute
+	buildTimeout = 3 * time.Minute
 
 	buildSynopsis = `build artifacts`
 	buildHelp     = `
